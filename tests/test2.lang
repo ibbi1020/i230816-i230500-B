@@ -1,0 +1,93 @@
+## Test File 2: Complex Expressions
+## Tests nested expressions and complex patterns
+
+start
+    declare Result = ((10 + 20) * (30 - 15)) / 5
+    declare Complex = 2 ** (3 + 4) - 100 / 10
+    
+    ## Nested conditions
+    condition X > 0 && Y < 100
+        condition Z >= 50
+            condition Flag == true
+                output "All conditions met"
+            else
+                output "Flag not set"
+        else
+            output "Z too small"
+    else
+        output "Outer condition failed"
+    
+    ## Complex loop with multiple statements
+    declare Counter = 0
+    loop Counter < 100
+        declare Temp = Counter * 2
+        condition Temp % 3 == 0
+            output Temp
+            Counter++
+        else
+            Counter += 2
+        
+        condition Counter > 50 && Counter < 60
+            break
+    
+    ## Function with complex logic
+    function Fibonacci(N)
+        condition N <= 1
+            return N
+        else
+            declare A = Fibonacci(N - 1)
+            declare B = Fibonacci(N - 2)
+            return A + B
+    
+    ## Multiple arithmetic operations
+    declare Value = 100
+    Value += 50
+    Value *= 2
+    Value /= 3
+    Value -= 25
+    Value++
+    ++Value
+    Value--
+    --Value
+    
+    ## String concatenation (represented as separate strings)
+    declare First = "Hello"
+    declare Second = "World"
+    declare Space = " "
+    
+    ## Character operations
+    declare CharA = 'A'
+    declare CharB = 'B'
+    declare Newline = '\n'
+    declare Tab = '\t'
+    
+    ## Boolean expressions
+    declare IsValid = true && false || !false
+    declare IsActive = (X > 0) && (Y < 100) && (Z != 0)
+    
+    ## Array operations
+    declare Matrix[5]
+    declare I = 0
+    loop I < 5
+        Matrix[I] = I * 10
+        I++
+    
+    ## Nested function calls
+    declare Result1 = Calculate(10, 20, 30)
+    declare Result2 = Calculate(Result1, 5, 2)
+    output Result2
+    
+    ## Multiple return paths
+    function Maximum(A, B, C)
+        condition A >= B && A >= C
+            return A
+        else
+            condition B >= C
+                return B
+            else
+                return C
+    
+    declare Max = Maximum(100, 200, 150)
+    output Max
+    
+finish

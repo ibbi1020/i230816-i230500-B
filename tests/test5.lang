@@ -1,0 +1,156 @@
+## Test File 5: Comment Edge Cases
+## Tests various comment patterns and edge cases
+
+## Single-line comment at the beginning
+## Another single-line comment
+## Third comment in a row
+
+#* Multi-line comment
+   at the beginning
+   spanning multiple lines *#
+
+start
+    ## Comment after start keyword
+    
+    declare X = 100  ## Inline comment (though ## consumes rest of line)
+    
+    #* Block comment
+       before declaration *#
+    declare Y = 200
+    
+    ## Multiple consecutive single-line comments
+    ## Comment 1
+    ## Comment 2
+    ## Comment 3
+    ## Comment 4
+    
+    declare Z = 300
+    
+    #*
+    Multi-line comment with
+    special characters: !@#$%^&*()
+    and symbols: <>?:"{}_+-=[]
+    *#
+    
+    ## Comment with special chars: !@#$%^&*()_+-=[]{}|;:'"<>?
+    
+    declare A = 400
+    
+    #* Nested-looking comments
+       #* This is not actually nested *#
+       Just continuing the outer comment
+    *#
+    
+    declare B = 500
+    
+    ## Comment with numbers: 123456789
+    ## Comment with code-like text: declare X = 100
+    ## Comment with operators: ++ -- += -= == !=
+    
+    declare C = 600
+    
+    #*
+    Comment with empty lines:
+    
+    
+    
+    Still in comment
+    *#
+    
+    declare D = 700
+    
+    ## Very long single-line comment that goes on and on and on and on and on and on and on and on and on and on and on and on and demonstrates that comments can be quite lengthy
+    
+    declare E = 800
+    
+    #* Comment with asterisks inside: *** ***** *** *#
+    
+    #* Comment ending with multiple asterisks ****#
+    
+    declare F = 900
+    
+    ## Comment with hash symbols: # ## ### ####
+    
+    #* Comment with potential end sequences: * # *# 
+       But properly closed here *#
+    
+    declare G = 1000
+    
+    ######## Multiple hash comment start
+    
+    declare H = 1100
+    
+    #***** Multiple asterisk multi-line comment start
+    Content here
+    *****#
+    
+    declare I = 1200
+    
+    ## Comment before condition
+    condition X > 0
+        ## Comment inside condition block
+        output "Positive"
+        #* Block comment
+           inside condition *#
+        declare Temp = X * 2
+    else
+        ## Comment in else block
+        output "Non-positive"
+    
+    ## Comment before loop
+    loop X < 100
+        ## Comment inside loop
+        X++
+        #* Block comment
+           in loop body *#
+        output X
+    
+    ## Comment before function
+    function TestFunc(Param)
+        ## Comment inside function
+        declare Result = Param * 2
+        #* Block comment
+           in function body *#
+        return Result
+    
+    #* Multiple
+       multi-line
+       comments *#
+    
+    #* Second multi-line
+       comment right after *#
+    
+    #* Third one *#
+    
+    declare J = 1300
+    
+    #################### Many hashes
+    
+    declare K = 1400
+    
+    #************************************************
+     * Comment that looks like a documentation block
+     * with multiple lines
+     * and star patterns
+     ************************************************#
+    
+    declare L = 1500
+    
+    ## Comment at end of line after statement
+    declare M = 1600  ## This comment starts here
+    
+    ## Comment with quote marks: "string" and 'char'
+    ## Comment with keywords: start finish loop condition
+    ## Comment with identifiers: MyVar YourVar TheirVar
+    
+    declare N = 1700
+    
+finish
+
+## Comment after finish keyword
+## Final comment in file
+
+#* Final multi-line
+   comment block *#
+
+## The very last comment

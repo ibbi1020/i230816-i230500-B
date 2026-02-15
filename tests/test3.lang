@@ -1,0 +1,92 @@
+## Test File 3: String and Character Literals with Escape Sequences
+
+start
+    ## Basic strings
+    declare Message = "Hello, World!"
+    declare Empty = ""
+    declare SingleWord = "Programming"
+    
+    ## Strings with escape sequences
+    declare Quote = "She said \"Hello\""
+    declare Path = "C:\\Users\\Documents\\file.txt"
+    declare MultiLine = "Line1\nLine2\nLine3"
+    declare Tabbed = "Column1\tColumn2\tColumn3"
+    declare CarriageReturn = "Old Mac\rNew Line"
+    
+    ## Complex escape combinations
+    declare Complex1 = "Quote: \" Backslash: \\ Newline: \n"
+    declare Complex2 = "\t\tIndented text with \"quotes\""
+    declare Complex3 = "Path: C:\\Program Files\\App\\data.txt\n"
+    
+    ## Character literals
+    declare CharA = 'A'
+    declare CharZ = 'z'
+    declare Digit = '5'
+    declare Space = ' '
+    declare Special = '!'
+    
+    ## Character escape sequences
+    declare EscQuote = '\''
+    declare EscBackslash = '\\'
+    declare EscNewline = '\n'
+    declare EscTab = '\t'
+    declare EscReturn = '\r'
+    
+    ## Strings in expressions
+    condition Message == "Hello, World!"
+        output "Match found"
+    
+    ## Output with strings
+    output "Program started"
+    output "Value of X: "
+    output X
+    output "\nEnd of output"
+    
+    ## String assignment chain
+    declare Str1 = "First"
+    declare Str2 = "Second"
+    declare Str3 = "Third"
+    
+    Str1 = "Updated First"
+    Str2 = "Updated Second"
+    
+    ## Characters in loop
+    declare Ch = 'A'
+    loop Ch <= 'Z'
+        output Ch
+        Ch++
+    
+    ## Mixing strings and characters
+    declare Prefix = "Result: "
+    declare Suffix = "\n"
+    declare Sep = ','
+    
+    output Prefix
+    output "Value"
+    output Suffix
+    
+    ## Special characters
+    declare OpenParen = '('
+    declare CloseParen = ')'
+    declare Semicolon = ';'
+    declare Colon = ':'
+    declare Comma = ','
+    
+    ## Strings with numbers
+    declare NumStr1 = "123"
+    declare NumStr2 = "45.67"
+    declare NumStr3 = "-890"
+    
+    ## Long strings
+    declare LongString = "This is a very long string that contains multiple words and demonstrates the scanner's ability to handle longer text sequences without issues."
+    
+    ## Empty and single character strings
+    declare EmptyStr = ""
+    declare SingleChar = "X"
+    
+    ## Strings with special formatting
+    declare Formatted = "Name:\t\tJohn Doe\nAge:\t\t25\nCity:\t\tDublin"
+    
+    output "All string tests completed successfully!"
+    
+finish

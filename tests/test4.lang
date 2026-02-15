@@ -1,0 +1,116 @@
+## Test File 4: Lexical Errors
+## Tests error detection and recovery
+
+start
+    ## Valid declaration
+    declare X = 100
+    
+    ## ERROR: Invalid character @
+    declare Y = 100 @ 50
+    
+    ## Valid operation
+    X = X + 10
+    
+    ## ERROR: Unclosed string
+    declare Str1 = "This string is not closed
+    
+    ## Recovery: Valid statement
+    declare Z = 200
+    
+    ## ERROR: Unclosed character literal
+    declare Ch1 = 'A
+    
+    ## Valid character
+    declare Ch2 = 'B'
+    
+    ## ERROR: Invalid escape sequence
+    declare Str2 = "Invalid escape: \x"
+    
+    ## Valid string
+    declare Str3 = "Valid string"
+    
+    ## ERROR: Invalid identifier (starts with lowercase)
+    declare invalid_identifier = 100
+    
+    ## ERROR: Invalid identifier (starts with digit)
+    declare 123Invalid = 50
+    
+    ## Valid identifier
+    declare ValidIdentifier = 300
+    
+    ## ERROR: Identifier too long (>31 characters)
+    declare ThisIsAVeryLongIdentifierNameThatExceedsMaximumLength = 400
+    
+    ## Valid declaration
+    declare Short = 500
+    
+    ## ERROR: Unclosed multi-line comment
+    #* This comment is never closed
+    
+    declare After = 600
+    
+    ## ERROR: Invalid characters in various positions
+    $ = 100
+    X = Y # 50
+    declare Value = ~100
+    
+    ## Valid operations between errors
+    X = X + 1
+    Y = Y - 1
+    
+    ## ERROR: Malformed floating point
+    declare Float1 = 123.
+    declare Float2 = .456
+    
+    ## Valid float
+    declare Float3 = 789.123
+    
+    ## ERROR: Invalid operator combinations
+    X =+ 10
+    Y =- 5
+    Z =* 2
+    
+    ## Valid compound assignment
+    X += 10
+    Y -= 5
+    Z *= 2
+    
+    ## ERROR: Invalid character in string (newline without \n)
+    declare MultiStr = "Line 1
+Line 2"
+    
+    ## Valid multi-line string representation
+    declare CorrectMulti = "Line 1\nLine 2"
+    
+    ## ERROR: Empty character literal
+    declare EmptyChar = ''
+    
+    ## Valid character
+    declare ValidChar = 'X'
+    
+    ## ERROR: Multiple characters in char literal
+    declare MultiChar = 'ABC'
+    
+    ## ERROR: Invalid symbols
+    X = Y & Z
+    A = B | C
+    D = E ^ F
+    
+    ## Valid logical operators
+    condition X && Y
+        output "Valid"
+    
+    condition A || B
+        output "Valid"
+    
+    ## ERROR: Incomplete operators
+    condition X = = Y
+        output "Error"
+    
+    condition A ! = B
+        output "Error"
+    
+finish
+
+## ERROR: Statement outside start-finish block
+declare OutsideVar = 100

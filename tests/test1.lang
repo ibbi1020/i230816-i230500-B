@@ -1,0 +1,99 @@
+## Test File 1: All Valid Tokens
+## Tests all token types with valid syntax
+
+start
+    declare X = 123
+    declare Y = -456
+    declare Pi = 3.14159
+    declare Name = "Hello World"
+    declare Letter = 'A'
+    declare Flag = true
+    declare Status = false
+    
+    ## This is a single-line comment
+    
+    #* This is a
+       multi-line
+       comment *#
+    
+    ## Arithmetic operations
+    X = X + 10
+    Y = Y - 5
+    Pi = Pi * 2
+    X = X / 3
+    Y = Y % 4
+    X = 2 ** 8
+    
+    ## Relational operators
+    condition X == Y
+        output "Equal"
+    else
+        output "Not Equal"
+    
+    condition X != Y
+        output "Not Equal"
+    
+    condition X < 100
+        output "Less than 100"
+    
+    condition X > 50
+        output "Greater than 50"
+    
+    condition X <= 100
+        output "Less or equal"
+    
+    condition X >= 50
+        output "Greater or equal"
+    
+    ## Logical operators
+    condition Flag && Status
+        output "Both true"
+    
+    condition Flag || Status
+        output "At least one true"
+    
+    condition !Flag
+        output "Flag is false"
+    
+    ## Assignment operators
+    X += 10
+    Y -= 5
+    X *= 2
+    Y /= 3
+    
+    ## Increment/Decrement
+    X++
+    Y--
+    ++X
+    --Y
+    
+    ## Loop
+    loop X < 100
+        X = X + 1
+        condition X % 10 == 0
+            output X
+    
+    ## Function definition
+    function Calculate(A, B, C)
+        declare Result = A + B * C
+        return Result
+    
+    ## Break and continue
+    loop X < 200
+        X++
+        condition X % 2 == 0
+            continue
+        condition X > 150
+            break
+        output X
+    
+    ## Input
+    input X
+    input Name
+    
+    ## Arrays and indexing
+    declare Array[10]
+    Array[0] = 100
+    Array[1] = 200
+    
+finish
