@@ -1,0 +1,278 @@
+
+================================================================================
+TOKENS
+================================================================================
+<KEYWORD_START, "start", Line: 12, Col: 1>
+<KEYWORD_DECLARE, "declare", Line: 15, Col: 5>
+<IDENTIFIER, "X", Line: 15, Col: 13>
+<OP_ASSIGN, "=", Line: 15, Col: 15>
+<INTEGER_LITERAL, "100", Line: 15, Col: 17>
+<KEYWORD_DECLARE, "declare", Line: 19, Col: 5>
+<IDENTIFIER, "Y", Line: 19, Col: 13>
+<OP_ASSIGN, "=", Line: 19, Col: 15>
+<INTEGER_LITERAL, "200", Line: 19, Col: 17>
+<KEYWORD_DECLARE, "declare", Line: 27, Col: 5>
+<IDENTIFIER, "Z", Line: 27, Col: 13>
+<OP_ASSIGN, "=", Line: 27, Col: 15>
+<INTEGER_LITERAL, "300", Line: 27, Col: 17>
+<KEYWORD_DECLARE, "declare", Line: 37, Col: 5>
+<IDENTIFIER, "A", Line: 37, Col: 13>
+<OP_ASSIGN, "=", Line: 37, Col: 15>
+<INTEGER_LITERAL, "400", Line: 37, Col: 17>
+<IDENTIFIER, "Just", Line: 41, Col: 8>
+<ERROR, "c", Line: 41, Col: 13>
+<ERROR, "o", Line: 41, Col: 14>
+<ERROR, "n", Line: 41, Col: 15>
+<ERROR, "t", Line: 41, Col: 16>
+<ERROR, "i", Line: 41, Col: 17>
+<ERROR, "n", Line: 41, Col: 18>
+<ERROR, "u", Line: 41, Col: 19>
+<ERROR, "i", Line: 41, Col: 20>
+<ERROR, "n", Line: 41, Col: 21>
+<ERROR, "g", Line: 41, Col: 22>
+<ERROR, "t", Line: 41, Col: 24>
+<ERROR, "h", Line: 41, Col: 25>
+<ERROR, "e", Line: 41, Col: 26>
+<ERROR, "o", Line: 41, Col: 28>
+<ERROR, "u", Line: 41, Col: 29>
+<ERROR, "t", Line: 41, Col: 30>
+<ERROR, "e", Line: 41, Col: 31>
+<ERROR, "r", Line: 41, Col: 32>
+<ERROR, "c", Line: 41, Col: 34>
+<ERROR, "o", Line: 41, Col: 35>
+<ERROR, "m", Line: 41, Col: 36>
+<ERROR, "m", Line: 41, Col: 37>
+<ERROR, "e", Line: 41, Col: 38>
+<ERROR, "n", Line: 41, Col: 39>
+<ERROR, "t", Line: 41, Col: 40>
+<OP_MULTIPLY, "*", Line: 42, Col: 5>
+<ERROR, "#", Line: 42, Col: 6>
+<KEYWORD_DECLARE, "declare", Line: 44, Col: 5>
+<IDENTIFIER, "B", Line: 44, Col: 13>
+<OP_ASSIGN, "=", Line: 44, Col: 15>
+<INTEGER_LITERAL, "500", Line: 44, Col: 17>
+<KEYWORD_DECLARE, "declare", Line: 50, Col: 5>
+<IDENTIFIER, "C", Line: 50, Col: 13>
+<OP_ASSIGN, "=", Line: 50, Col: 15>
+<INTEGER_LITERAL, "600", Line: 50, Col: 17>
+<KEYWORD_DECLARE, "declare", Line: 60, Col: 5>
+<IDENTIFIER, "D", Line: 60, Col: 13>
+<OP_ASSIGN, "=", Line: 60, Col: 15>
+<INTEGER_LITERAL, "700", Line: 60, Col: 17>
+<KEYWORD_DECLARE, "declare", Line: 64, Col: 5>
+<IDENTIFIER, "E", Line: 64, Col: 13>
+<OP_ASSIGN, "=", Line: 64, Col: 15>
+<INTEGER_LITERAL, "800", Line: 64, Col: 17>
+<KEYWORD_DECLARE, "declare", Line: 70, Col: 5>
+<IDENTIFIER, "F", Line: 70, Col: 13>
+<OP_ASSIGN, "=", Line: 70, Col: 15>
+<INTEGER_LITERAL, "900", Line: 70, Col: 17>
+<IDENTIFIER, "But", Line: 75, Col: 8>
+<ERROR, "p", Line: 75, Col: 12>
+<ERROR, "r", Line: 75, Col: 13>
+<ERROR, "o", Line: 75, Col: 14>
+<ERROR, "p", Line: 75, Col: 15>
+<ERROR, "e", Line: 75, Col: 16>
+<ERROR, "r", Line: 75, Col: 17>
+<ERROR, "l", Line: 75, Col: 18>
+<ERROR, "y", Line: 75, Col: 19>
+<ERROR, "c", Line: 75, Col: 21>
+<ERROR, "l", Line: 75, Col: 22>
+<ERROR, "o", Line: 75, Col: 23>
+<ERROR, "s", Line: 75, Col: 24>
+<ERROR, "e", Line: 75, Col: 25>
+<ERROR, "d", Line: 75, Col: 26>
+<ERROR, "h", Line: 75, Col: 28>
+<ERROR, "e", Line: 75, Col: 29>
+<ERROR, "r", Line: 75, Col: 30>
+<ERROR, "e", Line: 75, Col: 31>
+<OP_MULTIPLY, "*", Line: 75, Col: 33>
+<ERROR, "#", Line: 75, Col: 34>
+<KEYWORD_DECLARE, "declare", Line: 77, Col: 5>
+<IDENTIFIER, "G", Line: 77, Col: 13>
+<OP_ASSIGN, "=", Line: 77, Col: 15>
+<INTEGER_LITERAL, "1000", Line: 77, Col: 17>
+<KEYWORD_DECLARE, "declare", Line: 81, Col: 5>
+<IDENTIFIER, "H", Line: 81, Col: 13>
+<OP_ASSIGN, "=", Line: 81, Col: 15>
+<INTEGER_LITERAL, "1100", Line: 81, Col: 17>
+<KEYWORD_DECLARE, "declare", Line: 87, Col: 5>
+<IDENTIFIER, "I", Line: 87, Col: 13>
+<OP_ASSIGN, "=", Line: 87, Col: 15>
+<INTEGER_LITERAL, "1200", Line: 87, Col: 17>
+<KEYWORD_CONDITION, "condition", Line: 90, Col: 5>
+<IDENTIFIER, "X", Line: 90, Col: 15>
+<OP_GREATER, ">", Line: 90, Col: 17>
+<INTEGER_LITERAL, "0", Line: 90, Col: 19>
+<KEYWORD_OUTPUT, "output", Line: 92, Col: 9>
+<STRING_LITERAL, ""Positive"", Line: 92, Col: 16>
+<KEYWORD_DECLARE, "declare", Line: 95, Col: 9>
+<IDENTIFIER, "Temp", Line: 95, Col: 17>
+<OP_ASSIGN, "=", Line: 95, Col: 22>
+<IDENTIFIER, "X", Line: 95, Col: 24>
+<OP_MULTIPLY, "*", Line: 95, Col: 26>
+<INTEGER_LITERAL, "2", Line: 95, Col: 28>
+<KEYWORD_ELSE, "else", Line: 96, Col: 5>
+<KEYWORD_OUTPUT, "output", Line: 98, Col: 9>
+<STRING_LITERAL, ""Non-positive"", Line: 98, Col: 16>
+<KEYWORD_LOOP, "loop", Line: 101, Col: 5>
+<IDENTIFIER, "X", Line: 101, Col: 10>
+<OP_LESS, "<", Line: 101, Col: 12>
+<INTEGER_LITERAL, "100", Line: 101, Col: 14>
+<IDENTIFIER, "X", Line: 103, Col: 9>
+<OP_INCREMENT, "++", Line: 103, Col: 10>
+<KEYWORD_OUTPUT, "output", Line: 106, Col: 9>
+<IDENTIFIER, "X", Line: 106, Col: 16>
+<KEYWORD_FUNCTION, "function", Line: 109, Col: 5>
+<IDENTIFIER, "Test", Line: 109, Col: 14>
+<IDENTIFIER, "Func", Line: 109, Col: 18>
+<PUNC_LPAREN, "(", Line: 109, Col: 22>
+<IDENTIFIER, "Param", Line: 109, Col: 23>
+<PUNC_RPAREN, ")", Line: 109, Col: 28>
+<KEYWORD_DECLARE, "declare", Line: 111, Col: 9>
+<IDENTIFIER, "Result", Line: 111, Col: 17>
+<OP_ASSIGN, "=", Line: 111, Col: 24>
+<IDENTIFIER, "Param", Line: 111, Col: 26>
+<OP_MULTIPLY, "*", Line: 111, Col: 32>
+<INTEGER_LITERAL, "2", Line: 111, Col: 34>
+<KEYWORD_RETURN, "return", Line: 114, Col: 9>
+<IDENTIFIER, "Result", Line: 114, Col: 16>
+<KEYWORD_DECLARE, "declare", Line: 125, Col: 5>
+<IDENTIFIER, "J", Line: 125, Col: 13>
+<OP_ASSIGN, "=", Line: 125, Col: 15>
+<INTEGER_LITERAL, "1300", Line: 125, Col: 17>
+<KEYWORD_DECLARE, "declare", Line: 129, Col: 5>
+<IDENTIFIER, "K", Line: 129, Col: 13>
+<OP_ASSIGN, "=", Line: 129, Col: 15>
+<INTEGER_LITERAL, "1400", Line: 129, Col: 17>
+<KEYWORD_DECLARE, "declare", Line: 137, Col: 5>
+<IDENTIFIER, "L", Line: 137, Col: 13>
+<OP_ASSIGN, "=", Line: 137, Col: 15>
+<INTEGER_LITERAL, "1500", Line: 137, Col: 17>
+<KEYWORD_DECLARE, "declare", Line: 140, Col: 5>
+<IDENTIFIER, "M", Line: 140, Col: 13>
+<OP_ASSIGN, "=", Line: 140, Col: 15>
+<INTEGER_LITERAL, "1600", Line: 140, Col: 17>
+<KEYWORD_DECLARE, "declare", Line: 146, Col: 5>
+<IDENTIFIER, "N", Line: 146, Col: 13>
+<OP_ASSIGN, "=", Line: 146, Col: 15>
+<INTEGER_LITERAL, "1700", Line: 146, Col: 17>
+<KEYWORD_FINISH, "finish", Line: 148, Col: 1>
+<EOF, "", Line: 157, Col: 1>
+================================================================================
+
+================================================================================
+SYMBOL TABLE
+================================================================================
+Name                 Type            First Line First Col  Frequency
+--------------------------------------------------------------------------------
+X                    IDENTIFIER      Line: 15   Col: 13   Frequency: 6
+Y                    IDENTIFIER      Line: 19   Col: 13   Frequency: 1
+Z                    IDENTIFIER      Line: 27   Col: 13   Frequency: 1
+A                    IDENTIFIER      Line: 37   Col: 13   Frequency: 1
+Just                 IDENTIFIER      Line: 41   Col: 8    Frequency: 1
+B                    IDENTIFIER      Line: 44   Col: 13   Frequency: 1
+C                    IDENTIFIER      Line: 50   Col: 13   Frequency: 1
+D                    IDENTIFIER      Line: 60   Col: 13   Frequency: 1
+E                    IDENTIFIER      Line: 64   Col: 13   Frequency: 1
+F                    IDENTIFIER      Line: 70   Col: 13   Frequency: 1
+But                  IDENTIFIER      Line: 75   Col: 8    Frequency: 1
+G                    IDENTIFIER      Line: 77   Col: 13   Frequency: 1
+H                    IDENTIFIER      Line: 81   Col: 13   Frequency: 1
+I                    IDENTIFIER      Line: 87   Col: 13   Frequency: 1
+Temp                 IDENTIFIER      Line: 95   Col: 17   Frequency: 1
+Test                 IDENTIFIER      Line: 109  Col: 14   Frequency: 1
+Func                 IDENTIFIER      Line: 109  Col: 18   Frequency: 1
+Param                IDENTIFIER      Line: 109  Col: 23   Frequency: 2
+Result               IDENTIFIER      Line: 111  Col: 17   Frequency: 2
+J                    IDENTIFIER      Line: 125  Col: 13   Frequency: 1
+K                    IDENTIFIER      Line: 129  Col: 13   Frequency: 1
+L                    IDENTIFIER      Line: 137  Col: 13   Frequency: 1
+M                    IDENTIFIER      Line: 140  Col: 13   Frequency: 1
+N                    IDENTIFIER      Line: 146  Col: 13   Frequency: 1
+--------------------------------------------------------------------------------
+Total unique identifiers: 24
+Total identifier occurrences: 31
+================================================================================
+
+================================================================================
+SCANNING STATISTICS
+================================================================================
+Total Tokens: 157
+Lines Processed: 157
+Comments Removed: 52
+
+Token Count by Type:
+--------------------------------------------------------------------------------
+  ERROR                          :    45
+  IDENTIFIER                     :    31
+  INTEGER_LITERAL                :    21
+  KEYWORD_DECLARE                :    19
+  OP_ASSIGN                      :    19
+  OP_MULTIPLY                    :     4
+  KEYWORD_OUTPUT                 :     3
+  STRING_LITERAL                 :     2
+  KEYWORD_START                  :     1
+  KEYWORD_LOOP                   :     1
+  KEYWORD_RETURN                 :     1
+  OP_INCREMENT                   :     1
+  EOF                            :     1
+  OP_GREATER                     :     1
+  PUNC_RPAREN                    :     1
+  KEYWORD_FUNCTION               :     1
+  PUNC_LPAREN                    :     1
+  KEYWORD_ELSE                   :     1
+  OP_LESS                        :     1
+  KEYWORD_CONDITION              :     1
+  KEYWORD_FINISH                 :     1
+================================================================================
+
+================================================================================
+LEXICAL ERRORS DETECTED: 45
+================================================================================
+[ERROR] INVALID_CHARACTER at Line 41, Col 13: 'c' - Invalid character 'c' (ASCII: 99)
+[ERROR] INVALID_CHARACTER at Line 41, Col 14: 'o' - Invalid character 'o' (ASCII: 111)
+[ERROR] INVALID_CHARACTER at Line 41, Col 15: 'n' - Invalid character 'n' (ASCII: 110)
+[ERROR] INVALID_CHARACTER at Line 41, Col 16: 't' - Invalid character 't' (ASCII: 116)
+[ERROR] INVALID_CHARACTER at Line 41, Col 17: 'i' - Invalid character 'i' (ASCII: 105)
+[ERROR] INVALID_CHARACTER at Line 41, Col 18: 'n' - Invalid character 'n' (ASCII: 110)
+[ERROR] INVALID_CHARACTER at Line 41, Col 19: 'u' - Invalid character 'u' (ASCII: 117)
+[ERROR] INVALID_CHARACTER at Line 41, Col 20: 'i' - Invalid character 'i' (ASCII: 105)
+[ERROR] INVALID_CHARACTER at Line 41, Col 21: 'n' - Invalid character 'n' (ASCII: 110)
+[ERROR] INVALID_CHARACTER at Line 41, Col 22: 'g' - Invalid character 'g' (ASCII: 103)
+[ERROR] INVALID_CHARACTER at Line 41, Col 24: 't' - Invalid character 't' (ASCII: 116)
+[ERROR] INVALID_CHARACTER at Line 41, Col 25: 'h' - Invalid character 'h' (ASCII: 104)
+[ERROR] INVALID_CHARACTER at Line 41, Col 26: 'e' - Invalid character 'e' (ASCII: 101)
+[ERROR] INVALID_CHARACTER at Line 41, Col 28: 'o' - Invalid character 'o' (ASCII: 111)
+[ERROR] INVALID_CHARACTER at Line 41, Col 29: 'u' - Invalid character 'u' (ASCII: 117)
+[ERROR] INVALID_CHARACTER at Line 41, Col 30: 't' - Invalid character 't' (ASCII: 116)
+[ERROR] INVALID_CHARACTER at Line 41, Col 31: 'e' - Invalid character 'e' (ASCII: 101)
+[ERROR] INVALID_CHARACTER at Line 41, Col 32: 'r' - Invalid character 'r' (ASCII: 114)
+[ERROR] INVALID_CHARACTER at Line 41, Col 34: 'c' - Invalid character 'c' (ASCII: 99)
+[ERROR] INVALID_CHARACTER at Line 41, Col 35: 'o' - Invalid character 'o' (ASCII: 111)
+[ERROR] INVALID_CHARACTER at Line 41, Col 36: 'm' - Invalid character 'm' (ASCII: 109)
+[ERROR] INVALID_CHARACTER at Line 41, Col 37: 'm' - Invalid character 'm' (ASCII: 109)
+[ERROR] INVALID_CHARACTER at Line 41, Col 38: 'e' - Invalid character 'e' (ASCII: 101)
+[ERROR] INVALID_CHARACTER at Line 41, Col 39: 'n' - Invalid character 'n' (ASCII: 110)
+[ERROR] INVALID_CHARACTER at Line 41, Col 40: 't' - Invalid character 't' (ASCII: 116)
+[ERROR] INVALID_CHARACTER at Line 42, Col 6: '#' - Invalid character '#' (ASCII: 35)
+[ERROR] INVALID_CHARACTER at Line 75, Col 12: 'p' - Invalid character 'p' (ASCII: 112)
+[ERROR] INVALID_CHARACTER at Line 75, Col 13: 'r' - Invalid character 'r' (ASCII: 114)
+[ERROR] INVALID_CHARACTER at Line 75, Col 14: 'o' - Invalid character 'o' (ASCII: 111)
+[ERROR] INVALID_CHARACTER at Line 75, Col 15: 'p' - Invalid character 'p' (ASCII: 112)
+[ERROR] INVALID_CHARACTER at Line 75, Col 16: 'e' - Invalid character 'e' (ASCII: 101)
+[ERROR] INVALID_CHARACTER at Line 75, Col 17: 'r' - Invalid character 'r' (ASCII: 114)
+[ERROR] INVALID_CHARACTER at Line 75, Col 18: 'l' - Invalid character 'l' (ASCII: 108)
+[ERROR] INVALID_CHARACTER at Line 75, Col 19: 'y' - Invalid character 'y' (ASCII: 121)
+[ERROR] INVALID_CHARACTER at Line 75, Col 21: 'c' - Invalid character 'c' (ASCII: 99)
+[ERROR] INVALID_CHARACTER at Line 75, Col 22: 'l' - Invalid character 'l' (ASCII: 108)
+[ERROR] INVALID_CHARACTER at Line 75, Col 23: 'o' - Invalid character 'o' (ASCII: 111)
+[ERROR] INVALID_CHARACTER at Line 75, Col 24: 's' - Invalid character 's' (ASCII: 115)
+[ERROR] INVALID_CHARACTER at Line 75, Col 25: 'e' - Invalid character 'e' (ASCII: 101)
+[ERROR] INVALID_CHARACTER at Line 75, Col 26: 'd' - Invalid character 'd' (ASCII: 100)
+[ERROR] INVALID_CHARACTER at Line 75, Col 28: 'h' - Invalid character 'h' (ASCII: 104)
+[ERROR] INVALID_CHARACTER at Line 75, Col 29: 'e' - Invalid character 'e' (ASCII: 101)
+[ERROR] INVALID_CHARACTER at Line 75, Col 30: 'r' - Invalid character 'r' (ASCII: 114)
+[ERROR] INVALID_CHARACTER at Line 75, Col 31: 'e' - Invalid character 'e' (ASCII: 101)
+[ERROR] INVALID_CHARACTER at Line 75, Col 34: '#' - Invalid character '#' (ASCII: 35)
+================================================================================
