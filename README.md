@@ -2,11 +2,11 @@
 ## Lexical Analyzer (Scanner) Implementation
 
 **Team Members:**  
-- Student 1 - i230816  
-- Student 2 - i230500  
+- Student 1 - Ibraheem Farooq (i230816)  
+- Student 2 - Rehan Akram (i230500)  
 - Section: B
 
----
+
 
 ## Language Overview
 
@@ -15,14 +15,14 @@
 
 SimpleLang is a custom programming language designed for demonstrating lexical analysis concepts. It features keyword-based control structures, strongly-typed identifiers, and multiple literal types.
 
----
+
 
 ## 1. Keywords
 
 SimpleLang has 12 reserved keywords:
 
 | Keyword | Meaning | Usage Example |
-|---------|---------|---------------|
+||||
 | `start` | Program entry point | `start ... finish` |
 | `finish` | Program termination | Marks end of program block |
 | `loop` | Loop construct | `loop condition { ... }` |
@@ -38,7 +38,7 @@ SimpleLang has 12 reserved keywords:
 
 **Note:** All keywords are case-sensitive and must be lowercase.
 
----
+
 
 ## 2. Identifiers
 
@@ -69,7 +69,7 @@ _Variable       # Starts with underscore
 very_long_identifier_name_that_exceeds_maximum_allowed_length  # > 31 chars
 ```
 
----
+
 
 ## 3. Literals
 
@@ -146,14 +146,14 @@ true
 false
 ```
 
----
+
 
 ## 4. Operators
 
 ### 4.1 Arithmetic Operators
 
 | Operator | Description | Precedence | Example |
-|----------|-------------|------------|---------|
+|-|-|||
 | `**` | Exponentiation | 1 (highest) | `2 ** 8` = 256 |
 | `*` | Multiplication | 2 | `5 * 3` = 15 |
 | `/` | Division | 2 | `10 / 2` = 5 |
@@ -164,7 +164,7 @@ false
 ### 4.2 Relational Operators
 
 | Operator | Description | Example |
-|----------|-------------|---------|
+|-|-||
 | `==` | Equal to | `X == Y` |
 | `!=` | Not equal to | `X != Y` |
 | `<` | Less than | `X < 100` |
@@ -175,7 +175,7 @@ false
 ### 4.3 Logical Operators
 
 | Operator | Description | Precedence | Example |
-|----------|-------------|------------|---------|
+|-|-|||
 | `!` | Logical NOT | 1 | `!Flag` |
 | `&&` | Logical AND | 2 | `X > 0 && Y < 100` |
 | `||` | Logical OR | 3 | `A == 0 || B == 0` |
@@ -183,7 +183,7 @@ false
 ### 4.4 Assignment Operators
 
 | Operator | Description | Example | Equivalent |
-|----------|-------------|---------|------------|
+|-|-|||
 | `=` | Simple assignment | `X = 100` | - |
 | `+=` | Add and assign | `X += 10` | `X = X + 10` |
 | `-=` | Subtract and assign | `X -= 5` | `X = X - 5` |
@@ -193,16 +193,16 @@ false
 ### 4.5 Increment/Decrement Operators
 
 | Operator | Description | Example |
-|----------|-------------|---------|
+|-|-||
 | `++` | Increment by 1 | `X++` or `++X` |
 | `--` | Decrement by 1 | `X--` or `--X` |
 
----
+
 
 ## 5. Punctuators
 
 | Symbol | Name | Usage |
-|--------|------|-------|
+|--||-|
 | `(` `)` | Parentheses | Function calls, grouping expressions |
 | `{` `}` | Braces | Code blocks |
 | `[` `]` | Brackets | Array indexing |
@@ -210,7 +210,7 @@ false
 | `;` | Semicolon | Statement terminator (optional) |
 | `:` | Colon | Type annotations |
 
----
+
 
 ## 6. Comments
 
@@ -241,7 +241,7 @@ declare X = 100  ## Inline comment
    spanning several lines *#
 ```
 
----
+
 
 ## 7. Pattern Matching Priority
 
@@ -262,7 +262,7 @@ The scanner follows this priority order (highest to lowest):
 
 This ordering ensures correct token recognition (e.g., `==` is recognized as one token, not two `=` tokens).
 
----
+
 
 ## 8. Sample Programs
 
@@ -330,7 +330,7 @@ start
 finish
 ```
 
----
+
 
 ## 9. Compilation and Execution
 
@@ -381,7 +381,7 @@ javac *.java
 java -cp . Yylex <input-file.lang>
 ```
 
----
+
 
 ## 10. Project Structure
 
@@ -409,7 +409,7 @@ i230816-i230500-B/
 └── README.md                    # This file
 ```
 
----
+
 
 ## 11. Implementation Details
 
@@ -446,7 +446,6 @@ The scanner detects and reports:
 
 Errors are reported with location and reason, but scanning continues (error recovery).
 
----
 
 ## 12. Testing
 
@@ -459,47 +458,3 @@ Five comprehensive test files are provided:
 5. **test5.lang:** Comment edge cases (nested-looking, special chars, etc.)
 
 Run each test file through both scanners and compare results.
-
----
-
-## 13. Features
-
-### Manual Scanner (Part 1)
-✓ DFA-based token recognition using minimized transition tables  
-✓ Longest match principle  
-✓ Correct pattern matching priority  
-✓ Line and column tracking  
-✓ Whitespace handling (preserved in strings)  
-✓ Symbol table with frequency tracking  
-✓ Comprehensive error detection and recovery  
-✓ Detailed statistics output  
-
-### JFlex Scanner (Part 2)
-✓ Declarative pattern matching  
-✓ Same token recognition as manual scanner  
-✓ Equivalent priority ordering  
-✓ Compatible token format  
-✓ Performance comparison with manual implementation  
-
----
-
-## 14. References
-
-- CS4031 Compiler Construction Course Materials
-- JFlex Manual: https://jflex.de/manual.html
-- Automata Theory: NFA → DFA conversion and minimization
-- Python `automata-lib` library for DFA verification
-
----
-
-## Contact
-
-For questions or issues, contact:
-- i230816@nu.edu.pk
-- i230500@nu.edu.pk
-
----
-
-**Last Updated:** January 2025  
-**Course:** CS4031 - Compiler Construction  
-**Institution:** FAST NUCES
